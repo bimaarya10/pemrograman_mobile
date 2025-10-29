@@ -1,6 +1,6 @@
-# pemmob
+# Mata Kuliah Pemrograman Mobile
 
-A new Flutter project.
+Flutter project.
 
 ## Getting Started
 
