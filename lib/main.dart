@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:pemmob/custom_scroll.dart';
+import 'package:pemmob/list_view.dart';
+import 'package:pemmob/list_view_app.dart';
 import 'package:pemmob/tugas1.dart';
 
 void main() {
@@ -8,9 +11,11 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: const Tugas1());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: CustomScrollApp(),
+    );
   }
 }
